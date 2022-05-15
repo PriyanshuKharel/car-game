@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: -webkit-linear-gradient(rgb(237, 25, 71),rgb(0, 0, 0));
+    min-height: 800px;
+}
+
+#game{
+    height: 500px;
+    width: 390px;
+    border: 2px solid white;
+    margin: 1rem auto;
+    background-color: white;
+    background-image: url(road.jfif);
+}
+
+#bluecar{
+    height: 100px;
+    width: 130px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    animation: bluecar 1s linear infinite;
+}
+
+
+
+#bluecar img{
+    height: 100px;
+    
+   
+}
+
+@keyframes bluecar{
+    0%{
+        top: 0px;
+    }
+    100%{
+        top: 501px;
+    }
+}
+
+#whitecar{
+    height: 100px;
+    width: 130px;
+    position: relative;
+    top: 250px;
+    left: 130px;
+    text-align: center;
+}
+
+#whitecar img{
+    height: 100px;
+    
+}
+
+
+#result{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid white;
+    margin: 1rem auto;
+    display: none;
+    
+}
+
+#text{
+    font-size: larger;
+    text-transform: uppercase;
+
+}
+
+#btn{
+    padding: 0.5rem;
+    font-size: large;
+    color: black;
+    background-color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
